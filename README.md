@@ -26,7 +26,7 @@
 ## 🖥️ App Interfaces
 
 <p align="center">
-  <img src="" width="600">
+  <img src="https://github.com/user-attachments/assets/bf80acf2-63f7-40c3-a02d-b73e6cdd0c62" width="600">
 </p>
 
 ---
