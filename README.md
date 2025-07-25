@@ -84,31 +84,32 @@
 
 ## ❓Question Answer Section
 
-### 📄 What method or library did you use to extract the text, and why?
+### 📄 What method or library did i use to extract the text, and why?
 
 - **Library**: `PDFPlumberLoader` (via LangChain)
 - **Reason**: PDFPlumber preserves **Bangla Unicode** and handles line breaks and ligatures better than PyPDF2 or pdfminer.
 - **Challenge**: Some PDF pages had irregular formatting (broken words, missing punctuation), requiring chunking with tolerance for broken structure.
 
-### ✂️ What chunking strategy did you choose?
+### ✂️ What chunking strategy did i choose?
 
 - **Method**: `RecursiveCharacterTextSplitter`
 - **Config**: `chunk_size=1000`, `chunk_overlap=300`
-- **Why**: This strategy balances coherence and retrieval relevance. It avoids splitting in mid-sentence/word, helping embeddings maintain semantic continuity.
+- **Why**: This strategy balances coherence and retrieval relevance. It avoids splitting in mid-sentence/word, helping embeddings maintain semantic continuity. It better than 'CharacterTexSplitter'.
 
-### 🧬 What embedding model did you use?
+### 🧬 What embedding model did i use?
 
-- **Model**: `OllamaEmbeddings(model="deepseek-r1:14b")`
+- **Model**: `OllamaEmbeddings(model="deepseek-r1:14b")` and `OllamaEmbeddings(model="llama2")`
 - **Why**: It's multilingual and effective in capturing contextual meaning in Bangla and English.
 - **Advantage**: Fine-grained semantic understanding that outperforms basic word vectors (e.g., TF-IDF).
+- **Suggestion**: 'OpenAIEmbedding' and 'GoogleGenerativeAIEmbeddings'  
 
-### 🧠 How are you comparing the query with your stored chunks?
+### 🧠 How are i comparing the query with my stored chunks?
 
 - **Method**: `vector_store.similarity_search(query=question)`
 - **Similarity**: Cosine distance (via FAISS or AstraDB backend)
 - **Why**: Vector similarity ensures semantically close chunks, even if they don’t share surface-level words.
 
-### 🧐 How do you ensure meaningful comparison between question and document chunks?
+### 🧐 How do i ensure meaningful comparison between question and document chunks?
 
 - Chunks are semantically rich (1000 chars) and overlapping (300 chars), ensuring broader context.
 - Queries are passed to embedding model to generate query vectors before comparison.
@@ -161,7 +162,10 @@ python BanglaPDF_QA\ \(main\).py
 # OR run CLI version with AstraDB
 python BangalPDF_QA_AstraDB.py
 ```
-
 ## 🤝 Credits
 
-Created by **Abu Omayed**
+Created by **Abu Omayed**  
+*Researcher | Data Scientist | AI Engineer*  
+📧 *Email: abuomayed@gmail.com*
+
+
