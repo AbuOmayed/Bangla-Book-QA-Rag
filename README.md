@@ -18,7 +18,7 @@
 ## 🏗️ Architecture Overview
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1ebdc630-5af4-4ef1-8940-def976bad458" width="600">
+  <img src="https://github.com/user-attachments/assets/2a50bd7b-3e07-4171-9ee6-63fd7373215d" width="600">
 </p>
 
 ---
@@ -26,7 +26,7 @@
 ## 🖥️ App Interfaces
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b252dfd5-3240-4b0e-afd9-2bd71b827224" width="600">
+  <img src="" width="600">
 </p>
 
 ---
@@ -47,10 +47,10 @@
   <img src="https://github.com/user-attachments/assets/9136efa6-87a2-4c8f-b7b7-7b2aedf219c5" width="600">
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/000d366d-9466-416e-8c1a-d267d4542f27" width="600">
+  <img src="https://github.com/user-attachments/assets/97806550-71f5-486a-8408-080076ef46e9" width="600">
 </p>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5172ac96-dfa1-4add-b79e-88dc0fc5091c" width="600">
+  <img src="https://github.com/user-attachments/assets/a7ecb26a-a6e1-4a6c-841c-4d029bec4277" width="600">
 </p>
 
 ---
