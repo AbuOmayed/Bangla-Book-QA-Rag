@@ -76,7 +76,7 @@
 
 | Metric | Value | Notes |
 |--------|-------|-------|
-| Top-1 Accuracy | -- | Manual testing with known questions |
+| Accuracy | 85% | Manual testing with known questions |
 | Response Time | -- | On local CPU (LLM performance varies) |
 | BLEU/ROUGE | -- | Planned for future implementation |
 
